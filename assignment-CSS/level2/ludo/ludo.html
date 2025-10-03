@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .row1 {
+            display: flex;
+
+
+        }
+
+        .red {
+            border: 50px solid red;
+            height: 250px;
+            width: 260px;
+            display: inline-block;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        
+        }
+  .green{
+       border: 50px solid green;
+            height: 250px;
+            width: 260px;
+            display: inline-block;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+  }
+        .r1 {
+            border: 5px solid red;
+            height: 90px;
+            width: 70px;
+            border-radius: 50%;
+
+        }
+ .g1{
+      border: 5px solid green;
+            height: 90px;
+            width: 70px;
+            border-radius: 50%;
+ }
+        .rcircle1,
+        .rcircle2 {
+            display: flex;
+            flex-direction: column;
+            margin: 25px;
+            gap: 40px;
+        }
+        .gcircle1 , .gcircle2{
+              display: flex;
+            flex-direction: column;
+            margin: 25px;
+            gap: 40px;
+        }
+
+        .m1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mchild1 {
+            border: 1px solid black;
+            height: 56.4px;
+            width: 39px;
+            /* display: flex;
+            flex-direction: column; */
+        }
+
+        /* .parent1{
+    display: flex;
+    flex-direction: column;
+   } */
+    .row2{
+        display: flex;
+    }
+    .line1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .l1{
+        height: 40px;
+        border: 1px solid black;
+        width: 58.1px;
+    }
+    .square{
+        height: 124px;
+        border: 1px solid black;
+        width: 120px;
+    }
+    .blue{
+         border: 50px solid blue;
+            height: 250px;
+            width: 260px;
+            display: inline-block;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+  }
+    .b1{
+        border: 5px solid blue;
+            height: 90px;
+            width: 70px;
+            border-radius: 50%;
+    }
+    .bcircle1 , .bcircle2{
+  display: flex;
+            flex-direction: column;
+            margin: 25px;
+            gap: 40px;
+    }
+    .row3{
+        display: flex;
+    }
+    .y1{
+           border: 5px solid yellow;
+            height: 90px;
+            width: 70px;
+            border-radius: 50%;
+    }
+    .ycircle1 , .ycircle2{
+display: flex;
+            flex-direction: column;
+            margin: 25px;
+            gap: 40px;
+    }
+    .yellow{
+          border: 50px solid yellow;
+            height: 250px;
+            width: 260px;
+            display: inline-block;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    }
+    .mchild1 .interred{
+        background-color: green;
+    }
+    .diff1g{
+         border: 1px solid black;
+            height: 56.4px;
+            width: 39px;
+            background-color: green;
+    }
+    .diff2r{
+        height: 40px;
+        border: 1px solid black;
+        width: 58.1px;
+            background-color: red;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row1">
+            <div class="red">
+                <div class="rcircle1">
+                    <div class="r1"></div>
+                    <div class="r1"></div>
+                </div>
+                <div class="rcircle2">
+                    <div class="r1"></div>
+                    <div class="r1"></div>
+                </div>
+            </div>
+        
+                <div class="m1">
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="diff1g"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    
+                </div>
+                <div class="m1">
+                    <div class="mchild1"></div>
+                    <div class="diff1g"></div>
+                    <div class="diff1g"></div>
+                    <div class="diff1g"></div>
+                    <div class="diff1g"></div>
+                    <div class="diff1g"></div>
+                    
+                </div>
+                <div class="m1">
+                    <div class="mchild1"></div>
+                    <div class="diff1g"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+
+                </div>
+           <div class="green">
+                <div class="gcircle1">
+                    <div class="g1"></div>
+                    <div class="g1"></div>
+                </div>
+                <div class="gcircle2">
+                    <div class="g1"></div>
+                    <div class="g1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="line1">
+                <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+              
+            </div>
+            <div class="line1">
+                <div class="l1"></div>
+                <div class="diff2r"></div>
+                <div class="l1"></div>
+               
+            </div>
+            <div class="line1">
+                <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+               
+            </div>
+            <div class="line1">
+                 <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+            </div>
+            <div class="line1">
+                 <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+            </div>
+            <div class="line1">
+                  <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+            </div>
+            <div class="square"></div>
+                  <div class="line1">
+                <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+              
+            </div>
+            <div class="line1">
+                <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+               
+            </div>
+            <div class="line1">
+                <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+               
+            </div>
+            <div class="line1">
+                 <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+            </div>
+            <div class="line1">
+                 <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+            </div>
+            <div class="line1">
+                  <div class="l1"></div>
+                <div class="l1"></div>
+                <div class="l1"></div>
+            </div>
+        </div>
+        <div class="row3">
+             <div class="blue">
+                <div class="bcircle1">
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                </div>
+                <div class="bcircle2">
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                </div>
+            </div>
+              <div class="m1">
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    
+                </div>
+                <div class="m1">
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    
+                </div>
+                <div class="m1">
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+                    <div class="mchild1"></div>
+
+                </div>
+                 <div class="yellow">
+                <div class="ycircle1">
+                    <div class="y1"></div>
+                    <div class="y1"></div>
+                </div>
+                <div class="ycircle2">
+                    <div class="y1"></div>
+                    <div class="y1"></div>
+                </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

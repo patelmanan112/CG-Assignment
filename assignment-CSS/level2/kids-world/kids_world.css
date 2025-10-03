@@ -1,0 +1,157 @@
+body{
+    background-image: url(https://res.cloudinary.com/dxzo7jfbn/image/upload/v1759118793/kw-background_duskz1.png);
+    background-size: 100% ;
+   background-position-y: 70px;
+    background-repeat: no-repeat;
+}
+.background{
+  font-size: 22px;
+  margin-left: 60px;
+  margin-top: 60px;
+  color: white;
+}
+#size{
+padding-top: 0px;
+    width: 100%
+
+}
+
+.logo{
+ display: flex;
+ justify-content: space-between;
+ font-size: 40px;
+ text-align: center;
+}
+#cart1{
+    height: 35px;
+
+}
+.book{
+    /* border: 2px solid black; */
+    margin-right: 60px;
+    margin-top: 150px;
+    margin-left: 60px;
+
+  
+    height: 500px;
+  
+}
+.b1 , .b2 ,.b3 ,.b4 , .b5 ,.b6{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 150px;
+    display: flex;
+}
+.imgb1 , .imgb2 , .imgb3 , .imgb4 , .imgb5 , .imgb6{
+     /* border: 2px solid black; */
+    height: 250px;
+    width: 220px;
+}
+.bookmain{
+    margin: 70px;
+    display: flex;
+  display: flex;
+  justify-content: space-between;
+}
+#book1{
+    height: 200px;
+}
+.add1{
+    width: 150px;
+    /* border: 2px solid black; */
+    height: 40px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.cart{
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 67px;
+    margin-top: 13px;
+    margin-left: 42px;
+    align-items: center;
+    color: white;
+    background-color: rgb(90, 123, 184);
+    display: flex;
+    justify-content: space-around;
+}
+#white_cart{
+    height: 20px;
+}
+#book2{
+    height: 200px;
+}
+#book3 , #book4 , #book5 , #book6{
+    height: 200px;
+}
+.games{
+    /* border: 2px solid black; */
+    height: 400px;
+     margin-left: 60px;
+    margin-top: 150px;
+   margin-right: 60px;
+  
+   
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.game1 ,.game4 ,.game2 , .game3{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 200px;
+}
+.gamephoto1 , .gamephoto4, .gamephoto2 , .gamephoto3{
+    /* border: 2px solid ; */
+    height: 340px;
+}
+#game1{
+    height: 180px;
+}
+.add2{
+       width: 150px;
+    /* border: 2px solid black; */
+    height: 40px;
+    margin-top: 82px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#game2 , #game3 , #game4{
+    height: 180px;
+}
+.handmade{
+    height: 400px ;
+    /* border: 2px solid black; */
+  margin-left: 60px;
+    margin-top: 150px;
+   margin-right: 60px;
+}
+.love1 , .love2 ,.love3 , .love4{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 200px;
+}
+.made{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1000px;
+}
+.made1 ,.made2 , .made3 ,.made4{
+/* border: 2px solid black; */
+height: 340px;
+}
+#hand1 , #hand2 , #hand3 , #hand4{
+    height: 180px;
+}
+.tag{
+    
+    margin-left: 60px;
+}
+.tag1{
+   margin-top: 30PX;
+   padding-top: 100px;
+    margin-left: 70px;
+}

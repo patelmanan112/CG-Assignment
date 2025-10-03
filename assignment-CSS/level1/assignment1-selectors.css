@@ -1,0 +1,23 @@
+p{
+font-size: 34px;
+    line-height: 40px;
+}
+#site-title{
+    font-size: larger;
+    background-color:rgb(163, 163, 198) ;
+    color: rgb(113, 112, 112);
+    padding: 20px;
+}
+.muted{
+    color: gray;
+}
+.highlight{
+    border: 2px solid black;
+    background-color: aqua;
+}
+.highlight-text{
+    background-color: lightblue;
+}
+#override{
+    background-color: rgb(231, 231, 112);
+}
