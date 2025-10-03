@@ -8,15 +8,9 @@ int main(){
    if( i==1){
        printf("*");
    }
-  else if(i==n){
+  else if(i==n || j==1 ||j==n){
        printf("*");
    }
-        else if(j==1){
-            printf("*");
-        }
-        else if(j==n){
-            printf("*");
-        }
         else if(j==i && i==(n/2+1)){
             printf("*");
         }
